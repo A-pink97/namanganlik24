@@ -16,20 +16,24 @@
   <header class="site-header">
     <div class="navbar-top ">
       <div class="navbar-conatiner container">
-        <a class="logo-link" href="#"><h1 class="logo-title">Namanganliklar 24</h1></a>
-          <p class="konvertatsiya1"> <span>$</span> 10137.2 </p>
-          <p class="konvertatsiya2"> <span>P</span> 138.26 </p>
-          <div class="search-form">
-            <p class="search-text">Поиск</p>
+        <a class="site-header-logo" href="#"> <img class="site-header-logo-img" src="./images/logo.svg" alt="N24 logo" width="268" height="28"> </a>
+        <ul class="currency-rates">
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">$</b> <span class="currency-rates-value">10650.06</span>
+          </li>
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">P</b> <span class="currency-rates-value">106.48</span>
+          </li>
+
+        </ul>
+          <form class="global-search-form" action="https://echo.htmlacademy.ru" method="get">
+          <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required></form>
+          <div class="lan-tonggle">
+            <a class="lan-tonggle-link lan-tonggle-link-active" href="#">Уз</a>
+            <a class="lan-tonggle-link" href="#">Ру</a>
           </div>
-          <div class="translater">
-            <a href="#">Уз</a>
-            <a href="#">Ру</a>
+          <a  class="btn-navbar btn-primary" href="#">Войти</a>
           </div>
-          <div class="btn-navbar">
-            <a href="#">Войти</a>
-          </div>
-      </div>
     </div>
     <!-- Bottom section -->
     <div class="container">
@@ -46,7 +50,8 @@
         <li class="navbar-item">Наука</li>
       </ul>
     </div>
- </header>
+  </header>
+  <hr class="nav-line">
   <section class="banner container">
     <img class="banner-img" src="images/optimize 1.png" alt="shopme" width="1200" height="128">
 
